@@ -4,7 +4,7 @@
 
 This is a wesbite where you can add and remove books.
 
-![screenshot](./assets/screenshots/screenshot.PNG)
+![screenshot](./assets/awesome.PNG)
 
 This project is my portfolio.
 
@@ -20,7 +20,7 @@ This project is my portfolio.
 
 To get the content of this project locally you need to run this command in your terminal:
 
-- git clone your https://github.com/matovu-farid/My-Portfolio.git
+- git clone your https://github.com/pepedropo1/AwesomeBooksES6.git
 - cd project My-Portfolio
 - open the index.html file to see project running.
 
