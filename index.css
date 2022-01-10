@@ -1,145 +1,144 @@
 body {
-    font-weight: 800;
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
-    justify-content: space-between;
-  }
-  
-  .section {
-    flex: 1;
-  }
-  
-  .book-list {
-    padding-left: 0;
-    width: 100%;
-    margin: 0;
-  }
-  
-  .nav li {
-    padding: 0 5px;
-  }
-  
-  .bookItem {
-    list-style-type: none;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 8px;
-  }
-  
-  .book-list li:nth-child(odd) {
-    background: #ddd;
-  }
-  
-  .tolu {
-    width: 92px;
-    height: 27px;
-    box-shadow: 5px 5px black;
-    background-color: white;
-    font-weight: 800;
-  }
-  
-  .books-display {
-    border: 3px solid;
-  }
-  
-  .form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    align-self: center;
-    margin-top: 45px;
-    max-width: 200px;
-  }
-  
-  .form-section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  header > h1 {
-    text-align: center;
-  }
-  
-  .form * {
-    margin: 10px 0;
-    font-weight: 800;
-  }
-  
-  button {
-    cursor: pointer;
-  }
-  
-  form > input {
-    width: 100%;
-  }
-  
-  form > input,
-  button {
-    border: 3px solid;
-  }
-  
-  form > button {
-    box-shadow: 5px 5px black;
-    padding: 2px 12px;
-    background-color: white;
-    font-weight: 800;
-    align-self: flex-end;
-  }
-  
-  .nav {
-    display: flex;
-    justify-content: space-between;
-    border: 3px solid black;
-  }
-  
-  .nav > ul {
-    display: flex;
-    list-style-type: none;
-    padding: 0 5px;
-  }
-  
-  .nav li:hover {
-    cursor: pointer;
-  }
-  
-  .selected {
-    color: #45698a;
-  }
-  
-  .nav li:nth-child(2) {
-    border-left: 2px solid #7892aa;
-    border-right: 2px solid #7892aa;
-  }
-  
-  footer {
-    border: 2px solid black;
-    width: 100%;
-    margin-top: 32px;
-  }
-  
-  footer > p {
-    padding: 10px;
-  }
-  
-  .contact {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  #date {
-    text-align: end;
-    padding-bottom: 264px;
-  }
-  
-  .heading {
-    font-size: 28px;
-  }
-  
-  .hidden {
-    display: none;
-  }
-  
+  font-weight: 800;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: space-between;
+}
+
+.section {
+  flex: 1;
+}
+
+.book-list {
+  padding-left: 0;
+  width: 100%;
+  margin: 0;
+}
+
+.nav li {
+  padding: 0 5px;
+}
+
+.bookItem {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+}
+
+.book-list li:nth-child(odd) {
+  background: #ddd;
+}
+
+.tolu {
+  width: 92px;
+  height: 27px;
+  box-shadow: 5px 5px black;
+  background-color: white;
+  font-weight: 800;
+}
+
+.books-display {
+  border: 3px solid;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-self: center;
+  margin-top: 45px;
+  max-width: 200px;
+}
+
+.form-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header > h1 {
+  text-align: center;
+}
+
+.form * {
+  margin: 10px 0;
+  font-weight: 800;
+}
+
+button {
+  cursor: pointer;
+}
+
+form > input {
+  width: 100%;
+}
+
+form > input,
+button {
+  border: 3px solid;
+}
+
+form > button {
+  box-shadow: 5px 5px black;
+  padding: 2px 12px;
+  background-color: white;
+  font-weight: 800;
+  align-self: flex-end;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  border: 3px solid black;
+}
+
+.nav > ul {
+  display: flex;
+  list-style-type: none;
+  padding: 0 5px;
+}
+
+.nav li:hover {
+  cursor: pointer;
+}
+
+.selected {
+  color: #45698a;
+}
+
+.nav li:nth-child(2) {
+  border-left: 2px solid #7892aa;
+  border-right: 2px solid #7892aa;
+}
+
+footer {
+  border: 2px solid black;
+  width: 100%;
+  margin-top: 32px;
+}
+
+footer > p {
+  padding: 10px;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#date {
+  text-align: end;
+  padding-bottom: 264px;
+}
+
+.heading {
+  font-size: 28px;
+}
+
+.hidden {
+  display: none;
+}
