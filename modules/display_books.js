@@ -52,7 +52,7 @@ export default class DisplayBooks {
 
   emptyCheck = () => {
     if (this.bookCollection.length === 0) {
-      const li = document.createElement('li');
+      const li = document.createElement('li'); 
       li.className = 'bookItem'
       li.innerHTML = 'No books found.';
       this.bookListHtml.appendChild(li);

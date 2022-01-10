@@ -1,10 +1,11 @@
 var DateTime = luxon.DateTime;
-const now = DateTime.now();
-let time = document.querySelector('#date');
-time.innerHTML = now;
+
 
 function actualTime() {
+  const now = DateTime.now().toLocaleString(DateTime.DATETIME_MED);
+  const time = document.querySelector('#date');
   time.innerHTML = now;
 }
+actualTime();
 
 setInterval(actualTime, [1000]);
