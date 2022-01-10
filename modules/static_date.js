@@ -1,7 +1,6 @@
-function actualTime() {
+const staticTime=()=> {
   const time = document.querySelector('#date');
-  Date.now();
 
-  time.innerHTML = (new Date()).toLocaleString('en-US');
+  time.textContent = (new Date()).toLocaleString('en-US');
 }
-actualTime();
+staticTime();
