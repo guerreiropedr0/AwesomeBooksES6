@@ -9,6 +9,7 @@ This is a wesbite where you can add and remove books.
 This project is my portfolio.
 
 ## Built With
+
 - Javascript
 - HTML
 - CSS
@@ -16,13 +17,17 @@ This project is my portfolio.
 [Live Demo](https://pepedropo1.github.io/AwesomeBooksES6/)
 
 ## Getting Started
+
 To get the content of this project locally you need to run this command in your terminal:
+
 - git clone your https://github.com/matovu-farid/My-Portfolio.git
 - cd project My-Portfolio
 - open the index.html file to see project running.
 
 ### Deployment
+
 This project is deployed on a github page on the link below:
+
 - git@github.com:pepedropo1/AwesomeBooksES6.git
 
 ## Authors
@@ -39,7 +44,7 @@ This project is deployed on a github page on the link below:
 - Twitter: [@Josphat1](https://twitter.com/Josphat1/)
 - LinkedIn: [zairdon](https://www.linkedin.com/in/zairdon/)
 
- **Pedro Guerreiro**
+👤 **Pedro Guerreiro**
 
 - GitHub: [@pepedropo1](https://github.com/pepedropo1)
 - Twitter: [@pepedrop01](https://twitter.com/pepedrop01/)
@@ -48,4 +53,3 @@ This project is deployed on a github page on the link below:
 ## 📝 License
 
 This project is [MIT](./MIT.md) licensed.
-
