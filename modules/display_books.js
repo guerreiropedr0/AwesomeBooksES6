@@ -13,12 +13,17 @@ export default class DisplayBooks {
     }
 
     #displayBook=(book) => {
-      const listInnerHtml = (new ListHtml(book)).html;
+      // create the list node
       const listNode = document.createElement('li');
-
-      listNode.id = `book${book.index}`;
-      listNode.className = 'bookItem';
+      // create the inner html for a listnode
+      const listInnerHtml = (new ListHtml(book)).html;
+      // add inner html to list node
       listNode.innerHTML = listInnerHtml;
+      // add id to listnode
+      listNode.id = `book${book.index}`;
+      // used for styling
+      listNode.className = 'bookItem';
+      // append the list node to the DOM
       this.bookListHtml.appendChild(listNode);
     }
 
@@ -28,22 +33,29 @@ export default class DisplayBooks {
     }
 
     #attachRemoveMethod=(book) => {
+      // select the remove button clicked;
       const button = document.querySelector(`#${`button${book.index}`}`);
       button.addEventListener('click', () => {
+        // removing the book from the collection
         this.bookCollection = this.bookCollection.filter((bookGot) => bookGot.index !== book.index);
+        // saving the new collection to the local storage
         this.#saveToLocalStorage(this.bookCollection);
+        // hiding the list node from the books
         this.#hideListItem(book);
       });
     }
 
     #saveToLocalStorage=(bookCollection) => {
-      const storageManager = new LocalStorageManager(bookCollection);
-      storageManager.save();
+      const storageManager = new LocalStorageManager();
+      storageManager.save(bookCollection);
     }
 
     display=() => {
+      // clear all books
       this.#clear();
+      // display the books from the book collection
       this.bookCollection.forEach(this.#displayBook);
+      // attach the remove method to all the remove buttons
       this.bookCollection.forEach(this.#attachRemoveMethod);
     }
 }
