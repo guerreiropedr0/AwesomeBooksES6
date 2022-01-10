@@ -30,7 +30,7 @@ export default class DisplayBooks {
     const button = document.querySelector(`#${`button${book.index}`}`);
     button.addEventListener('click', () => {
       this.bookCollection = this.bookCollection.filter(
-        (bookGot) => bookGot.index !== book.index
+        (bookGot) => bookGot.index !== book.index,
       );
       this.#saveToLocalStorage(this.bookCollection);
       this.#hideListItem(book);
@@ -52,8 +52,8 @@ export default class DisplayBooks {
 
   emptyCheck = () => {
     if (this.bookCollection.length === 0) {
-      const li = document.createElement('li'); 
-      li.className = 'bookItem'
+      const li = document.createElement('li');
+      li.className = 'bookItem';
       li.innerHTML = 'No books found.';
       this.bookListHtml.appendChild(li);
     }

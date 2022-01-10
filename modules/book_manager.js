@@ -17,16 +17,15 @@ export default class BookManager {
     }
 
     add=(book) => {
-      
       const bookCollectionGot = this.#getFromLocalStorage();
-      
+
       book.index = (bookCollectionGot.length === 0) ? 0
         : bookCollectionGot[bookCollectionGot.length - 1].index + 1;
-      
+
       bookCollectionGot.push(book);
       this.bookCollection = bookCollectionGot;
       this.#rerender();
-      
+
       this.#saveToLocalStorage(this.bookCollection);
     }
 }
