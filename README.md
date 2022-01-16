@@ -6,29 +6,23 @@ This is a wesbite where you can add and remove books.
 
 ![screenshot](./assets/awesome.PNG)
 
-This project is my portfolio.
-
 ## Built With
 
 - Javascript
 - HTML
 - CSS
 
-[Live Demo](https://pepedropo1.github.io/AwesomeBooksES6/)
-
 ## Getting Started
 
 To get the content of this project locally you need to run this command in your terminal:
 
-- git clone your https://github.com/pepedropo1/AwesomeBooksES6.git
-- cd project My-Portfolio
+- git clone your git@github.com:guerreiropedr0/AwesomeBooksES6.git
+- cd AwesomeBooksES6
 - open the index.html file to see project running.
 
-### Deployment
+## Live Server
 
-This project is deployed on a github page on the link below:
-
-- git@github.com:pepedropo1/AwesomeBooksES6.git
+In the following link, you can view [Awesome Books](https://pepedropo1.github.io/AwesomeBooksES6/)
 
 ## Authors
 
